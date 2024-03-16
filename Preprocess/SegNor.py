@@ -11,7 +11,7 @@ gestures = list(range(1, 50))
 
 
 
-
+#此为测试不做动作分割的影响，效果不好 废弃
 for j in range(1, 2):
     df = pd.read_hdf('D:/Pengxiangdong/ZX/DB2/data/stimulus/raw/DB2_s' + str(j) + 'raw.h5', 'df')
 
